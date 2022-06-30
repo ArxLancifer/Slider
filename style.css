@@ -1,0 +1,15 @@
+.container{
+    text-align: justify;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+    transform: scale(0.5);
+}
+
+.canvasContainer{
+    width: 70vw;
+    height: 30vh;
+}
+
+
