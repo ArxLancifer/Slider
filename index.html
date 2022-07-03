@@ -11,24 +11,26 @@
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js" defer></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="/script.js" defer></script>
+    <script src="./script.js" defer></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
-    <section class="container">
+    <section class="container-fuild">
         <div class="swiper mySwiper vh-100">
             <div class="swiper-wrapper">
                 <div class="swiper-slide row d-flex justify-content-center align-content-center row ms-auto">
-                    <div class="brandLogo position-absolute top-0 start-0 p-3 fs-2 text-warning"><i
+                    <div class="container">
+                        <div class="brandLogo position-absolute top-0 start-0 p-3 fs-2 text-warning"><i
                             class="fa-brands fa-asymmetrik"></i>Brand name</div>
                     <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, id.</h1>
+                    </div>
                 </div>
                 <div class="swiper-slide d-flex justify-content-center align-content-center row ms-auto">
                     <div class="brandLogo position-absolute top-0 start-0 p-3 fs-2 text-warning"><i
                             class="fa-brands fa-asymmetrik"></i>Brand name</div>
-                    <div class="canvasContainer"><canvas id="myChart"></canvas></div>
+                    <div class="canvasContainer pt-4"><canvas id="myChart"></canvas></div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil expedita, illum,
                         voluptatum, dolores pariatur ullam deserunt non asperiores magni natus molestias eos voluptate
                         debitis. Est natus tenetur quos accusantium porro ad omnis, neque atque? Mollitia blanditiis
@@ -40,11 +42,11 @@
                             class="fa-brands fa-asymmetrik"></i>Brand name</div>
                     <div class="canvasContainer"><canvas id="anotherChart"></canvas></div>
                 </div>
-                <div class="swiper-slide  d-flex align-content-center row overflow-auto ms-auto ">
+                <div class="swiper-slide  d-flex align-content-center row overflow-auto ms-auto">
                     <div class=" d-flex row justify-content-center longScroll h-100">
-                        <div class="brandLogo position-relative top-0 start-0 p-4 fs-2 text-warning"><i
+                        <div class="brandLogo position-absolute top-0 start-0 p-4 fs-2 text-warning"><i
                                 class="fa-brands fa-asymmetrik"></i>Brand name</div>
-                        <div class="canvasContainer">
+                        <div class="canvasContainer pt-5 mt-5">
                             <canvas id="bubbleChart"></canvas>
                         </div>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nihil expedita, illum,

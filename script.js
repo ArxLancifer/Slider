@@ -24,9 +24,7 @@ document.querySelector('.swiper-wrapper').addEventListener('transitionend', func
         swiper.slideTo(0, 0)
     } 
 })
-//   swiper.on('slideChange', function(){
-//     console.log(this.activeIndex)
-    
+//   swiper.on('slideChange', function(){    
 //     if(swiper.activeIndex == 4 ){
 //         console.log(document.querySelector('[data-swiper-slide-index = "3"]'))
 //         // swiper.slideTo(0, 0)
