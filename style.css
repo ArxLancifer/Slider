@@ -13,7 +13,11 @@
 }
 
 .brandLogo {
-    padding-left: 0!important;
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* padding: 0 20%; */
 }
 
 .canvasContainer {
@@ -22,11 +26,14 @@
 }
 
 .swiper-slide{
-    padding: 0% 10%;
+    /* padding: 0% 20%; */
 }
 
 @media screen and (min-width: 1200px) {
     p {
         font-size: 1.5rem;
+    }
+    .swiper-slide,.brandLogo{
+        padding: 0% 20%;
     }
   }
